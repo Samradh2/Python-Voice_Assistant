@@ -25,8 +25,8 @@ def take_command():
             command = listener.recognize_google(voice)
             command = command.lower()
             print(f"Recognized command: {command}")
-            if 'lisa' in command:
-                command = command.replace('lisa', '')
+            if 'sam' in command:
+                command = command.replace('sam', '')
                 print(f"Processed command: {command}")
             else:
                 command = ""
@@ -48,7 +48,7 @@ def get_stock_summary():
         summary = "I couldn't fetch the stock data."
     return summary
 
-def run_lisa():
+def run_sam():
     command = take_command()
     if command:
         print(f"Running command: {command}")
@@ -80,4 +80,4 @@ def run_lisa():
         print("No command captured.")
 
 while True:
-    run_lisa()
+    run_sam()
