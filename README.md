@@ -1,2 +1,1 @@
-# Python-Voice_Assistant
-Developed a voice-controlled personal assistant using Python, integrating speech recognition, web browsing, and application control. Enhanced user experience with robust error handling and recovery mechanisms for seamless interaction
+This Python script creates a voice-controlled virtual assistant named "Sam" using several libraries for voice recognition, text-to-speech, web scraping (via Wikipedia), and external APIs (like Edamam for recipes and Yahoo Finance for stock data). It listens for voice commands, processes them, and responds accordingly
